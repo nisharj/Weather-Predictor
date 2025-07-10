@@ -1,41 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: white; 
-    text-align: center;
-    padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
 }
 
-#container{
-    background-color: rgb(16, 117, 117);
-    box-shadow: #2306ff;
-    border: #2306ff 5px solid;
-    border-radius: 10px;
-    padding: 20px;
+#container {
+  background-color: rgb(16, 117, 117);
+  box-shadow: 0 4px 12px rgba(35, 6, 255, 0.2);
+  border: #2306ff 5px solid;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-#weather-box {
-    background-color: rgb(66, 216, 218);
-    border-radius: 10px;
-    padding: 30px;
-    width: 300px;
-    margin: 0 auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+#weather-box,
+#pollution-box {
+  background-color: rgb(66, 216, 218);
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  margin: 20px auto 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-input, button {
-    padding: 10px;
-    margin: 10px 5px;
-    font-size: 16px;
-    border-radius: 10px;
 
+input,
+button {
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 16px;
+  border-radius: 10px;
 }
+
 img {
-    width: 100px;
+  width: 100px;
 }
 
-button:hover{
-    background-color: aqua;
-    color: black;
+button:hover {
+  background-color: aqua;
+  color: black;
 }
 
 #warning {
@@ -43,68 +45,68 @@ button:hover{
   font-weight: bold;
 }
 
-
-/* Small Devices - Mobile (up to 600px) */
+/* ✅ Mobile Devices - up to 600px */
 @media screen and (max-width: 600px) {
   body {
     padding: 20px;
   }
 
-  .container {
+  #container {
     padding: 15px;
     border-width: 3px;
     border-radius: 5%;
   }
 
-  #weather-box {
-    width: 80%;
+  #weather-box,
+  #pollution-box {
+    width: 90%;
     padding: 20px;
   }
 
-  input, button {
-    width: 90%;
+  input,
+  button {
+    width: 95%;
     font-size: 14px;
   }
 
   img {
     width: 80px;
   }
-
-  button:hover{
-    background-color: aqua;
-    color: black;
-  }
 }
 
-/* Medium Devices - Tablets (601px to 900px) */
+/* ✅ Tablets - 601px to 900px */
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  .container {
+  #container {
     padding: 20px;
     border-radius: 8%;
   }
 
-  #weather-box {
+  #weather-box,
+  #pollution-box {
     width: 80%;
   }
 
-  input, button {
+  input,
+  button {
     width: 80%;
     font-size: 15px;
   }
 }
 
-/* Large Devices - Desktops (901px and up) */
+/* ✅ Desktops - 901px and up */
 @media screen and (min-width: 901px) {
-  .container {
+  #container {
     width: 60%;
     margin: auto;
   }
 
-  #weather-box {
+  #weather-box,
+  #pollution-box {
     width: 300px;
   }
 
-  input, button {
+  input,
+  button {
     width: auto;
   }
 }
