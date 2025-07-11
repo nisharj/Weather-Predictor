@@ -12,6 +12,12 @@ async function getWeather() {
     return;
   }
 
+
+
+
+
+  
+
   try {
     // Get coordinates using Geocoding API
     const geoUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(
