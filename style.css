@@ -59,13 +59,13 @@ button:hover {
 
   #weather-box,
   #pollution-box {
-    width: 90%;
+    width: 80%;
     padding: 20px;
   }
 
   input,
   button {
-    width: 95%;
+    width: 80%;
     font-size: 14px;
   }
 
