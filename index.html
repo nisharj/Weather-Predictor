@@ -8,29 +8,31 @@
   </head>
   <body>
     <div id="container">
-      <h1>🌦️ Weather Predictor</h1>
+      <h1>🌦️ Weather Report</h1>
       <!-- User input for city name and button to get weather -->
       <input type="text" id="cityInput" placeholder="Enter city name" />
       <button onclick="getWeather()">Get Weather</button>
       <p id="warning" style="color: red; display: none"></p>
 
-      <!-- Weather information display box -->
-      <div id="weather-box" style="display: none">
-        <h2 id="cityName"></h2>
-        <img id="weatherIcon" src="fas fa-cloud" alt="Weather Icon" />
-        <p id="description"></p>
-        <p><strong>Temperature:</strong> <span id="temp"></span>°C</p>
-        <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
-        <p><strong>Wind Speed:</strong> <span id="wind"></span> m/s</p>
-      </div>
-
-      <!-- Air pollution information display box -->
-      <div id="pollution-box" style="display: none">
-        <h3>🌫️ Air Pollution Info</h3>
-        <p><strong>AQI Level:</strong> <span id="aqi"></span></p>
-        <p><strong>PM2.5:</strong> <span id="pm25"></span> µg/m³</p>
-        <p><strong>PM10:</strong> <span id="pm10"></span> µg/m³</p>
-        <p><strong>CO:</strong> <span id="co"></span> µg/m³</p>
+      <div id="weather-info">
+        <!-- Weather information display box -->
+        <div id="weather-box" style="display: none">
+          <h2 id="cityName"></h2>
+          <img id="weatherIcon" src="fas fa-cloud" alt="Weather Icon" />
+          <p id="description"></p>
+          <p><strong>Temperature:</strong> <span id="temp"></span>°C</p>
+          <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+          <p><strong>Wind Speed:</strong> <span id="wind"></span> m/s</p>
+        </div>
+  
+        <!-- Air pollution information display box -->
+        <div id="pollution-box" style="display: none">
+          <h3>🌫️ Air Pollution Info</h3>
+          <p><strong>AQI Level:</strong> <span id="aqi"></span></p>
+          <p><strong>PM2.5:</strong> <span id="pm25"></span> µg/m³</p>
+          <p><strong>PM10:</strong> <span id="pm10"></span> µg/m³</p>
+          <p><strong>CO:</strong> <span id="co"></span> µg/m³</p>
+        </div>
       </div>
     </div>
   </body>
