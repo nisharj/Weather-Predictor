@@ -19,8 +19,7 @@ Built using **HTML, CSS, JavaScript**, and powered by the **OpenWeatherMap API**
 
 ## 📸 Screenshot
 
-![screenshot](<img width="1267" height="509" alt="image" src="https://github.com/user-attachments/assets/745b7e3a-e732-4eaa-8cdd-57a978c0ec8b" />
-)
+![screenshot](screenshot.png)
 
 > _(Add a screenshot of your app here for better presentation)_
 
